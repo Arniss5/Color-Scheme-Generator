@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Generator</title>
+</head>
+<body>
+    <div class="top">
+        <form>
+            <input type="color">
+            <select name="colours-select" id="colours-select">
+                <option value="Monochrome">Monochrome</option>
+                <option value="Monochrome-dark">Monochrome-dark</option>
+                <option value="Monochrome-light">Monochrome-light</option>
+                <option value="Analogic">Analogic</option>
+                <option value="Complement">Complement</option>
+                <option value="Analogic-complement">Analogic-complement</option>
+                <option value="Triad">Triad</option>
+            </select>
+            <button class="get-colors-btn" id="get-colors-btn">Get color scheme</button>
+        </form>
+    </div>
+    <div class="colours-container">
+        <div class="colour"><div id="colour1" class="colour"></div><div class="colour1-hex"></div></div>
+        <div class="colour"><div id="colour2" class="colour"></div><div id="colour1" class="colour2-hex"></div></div>
+        <div class="colour"><div id="colour3" class="colour"></div><div class="colour3-hex"></div></div>
+        <div class="colour"><div id="colour4" class="colour"></div><div class="colour4-hex"></div></div>
+        <div class="colour"><div id="colour5" class="colour"></div><div class="colour5-hex"></div></div>
+    </div>
+    
+</body>
+</html>
