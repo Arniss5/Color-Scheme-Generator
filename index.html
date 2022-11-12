@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="top">
-        <form>
-            <input type="color" id="color-picker">
+        <form id="colour-form">
+            <input type="color" id="colour-picker" name="picked-colour">
             <select name="colours-select" id="colours-select">
                 <option value="Monochrome">Monochrome</option>
                 <option value="Monochrome-dark">Monochrome-dark</option>
@@ -20,15 +20,15 @@
                 <option value="Analogic-complement">Analogic-complement</option>
                 <option value="Triad">Triad</option>
             </select>
-            <button id="get-colors-btn">Get color scheme</button>
+            <button id="get-colours-btn">Get color scheme</button>
         </form>
     </div>
-    <div class="colours-container">
-        <div class="colour-container"><div id="colour1" class="colour"></div><div class="colour-hex" id="colour-hex">#AAD1B6</div></div>
+    <div class="colours-container" id="colours-container">
+        <!-- <div class="colour-container"><div id="colour1" class="colour"></div><div class="colour-hex" id="colour-hex">#AAD1B6</div></div>
         <div class="colour-container"><div id="colour2" class="colour"></div><div id="colour2" class="colour-hex" id="colour2-hex" >#AAD1B6</div></div>
         <div class="colour-container" ><div id="colour3" class="colour"></div><div class="colour-hex" id="colour3-hex">#AAD1B6</div></div>
         <div class="colour-container"><div id="colour4" class="colour"></div><div class="colour-hex" id="colour4-hex">#AAD1B6</div></div>
-        <div class="colour-container"><div id="colour5" class="colour"></div><div class="colour-hex" id="colour5-hex">#AAD1B6</div></div>
+        <div class="colour-container"><div id="colour5" class="colour"></div><div class="colour-hex" id="colour5-hex">#AAD1B6</div></div> -->
     </div>
     <script src="./app.js"></script>
 </body>
